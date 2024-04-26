@@ -47,4 +47,5 @@ cc_binary {
         "src/main.c",
         ":patch_code",
     ],
+    vendor: true,
 }
