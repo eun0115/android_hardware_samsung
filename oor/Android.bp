@@ -25,7 +25,6 @@ gensrcs {
 
 cc_binary {
     name: "oor",
-    static_executable: true,
     cflags: [
         "-std=c99",
     ],
